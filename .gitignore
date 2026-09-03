@@ -1,0 +1,92 @@
+# ==============================
+# FOODPLEASE - GITIGNORE GENERAL
+# ==============================
+
+# ------------------------------
+# Python / Django
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+.venv/
+venv/
+env/
+ENV/
+
+*.log
+
+# Base de datos local
+db.sqlite3
+db.sqlite3-journal
+
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# Flutter / Dart
+# ------------------------------
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ------------------------------
+# Android
+# ------------------------------
+android/.gradle/
+android/local.properties
+android/key.properties
+
+*.jks
+*.keystore
+
+# ------------------------------
+# iOS
+# ------------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# ------------------------------
+# IDE
+# ------------------------------
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------
+# VS Code / herramientas automáticas
+# ------------------------------
+**/.github/modernize/
+
+# ------------------------------
+# Sistema operativo
+# ------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------
+# Archivos comprimidos
+# ------------------------------
+*.rar
+*.zip
+
+# ------------------------------
+# Temporales
+# ------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
